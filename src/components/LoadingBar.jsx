@@ -23,7 +23,7 @@ function LoadingBar() {
             </h2>
           </div>
           <h2 className="text">Progress</h2>
-          <input type="text" placeholder="Enter % here" onInput={start} />
+          <input type="text" maxLength="3" max="100" placeholder="Enter % here" value="0" onInput={start} />
         </div>
       </div>
     </div>
